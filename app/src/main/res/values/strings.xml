@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="slogan">Niranjan Khatri</string>
+    <string name="second_act">Second Activity</string>
+    <string name="button1">Button 1 </string>
+    <string-array name="my_friends">
+        <item> Father </item>
+        <item> mother </item>
+        <item> brother </item>
+        <item> sister </item>
+        <item> grandmother </item>
+    </string-array>
+</resources>
