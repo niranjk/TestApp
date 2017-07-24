@@ -20,6 +20,15 @@ public class MainActivity extends AppCompatActivity {
 
         ImageView iv = (ImageView) findViewById(R.id.backimage);
 
+        Button button = (Button) findViewById(R.id.button1);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ActivityTwo.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
 }
